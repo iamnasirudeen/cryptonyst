@@ -1,0 +1,332 @@
+
+body {
+  font-family: 'Work Sans', Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#title__heading {
+  font-size: 28px;
+}
+
+.form-width {
+  width: 65%;
+  margin: 60px auto;
+}
+
+.active_aside {
+  background: #ff4e00;
+  color: #fff;
+}
+
+#pad {
+  padding: 20px;
+  font-size: inherit;
+}
+
+.padding {
+  margin: 30px 0;
+}
+
+.center {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 90%;
+}
+
+h3 a {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #333;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #ff4e00;
+}
+
+#author {
+  font-weight: 500;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+#created {
+  font-size: 10px;
+}
+
+.caption_none p {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#top2 {
+  margin: 30px 0;
+}
+
+.thumb img {
+  width: 100%;
+  height: 30%;
+}
+
+.thumb .caption_none {
+  padding: 15px;
+}
+
+.thumb, .comment p {
+  letter-spacing: 1px;
+}
+
+.form_container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.form-width textarea {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-group {
+  margin: 30px 0;
+}
+
+.form-width h3 {
+  margin: 30px 0;
+}
+
+label {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.form-width button {
+  padding: 15px 30px;
+  border: 1px solid #333;
+  background: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 8px;
+  color: inherit;
+}
+
+.form-width button:hover {
+  background: #333;
+  color: #fff;
+}
+
+#delete-form {
+  display: inline;
+}
+
+footer {
+  margin: 100px 0 0;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li a {
+  color: #333;
+  margin: 0;
+}
+
+.info, .social {
+  padding-left: 0;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social li:last-child{
+  display: flex;
+  padding-left:15px;
+}
+
+.info li a {
+  text-decoration: underline;
+}
+
+.fab {
+  font-size: 18px;
+}
+
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #ff4e00;
+  padding: 0.5rem;
+  border: 1px solid #ff4e00;
+  margin: 0 1rem;
+}
+
+.pagination a:hover,
+.pagination a:active,
+.pagination a.active {
+  background-color: #ff4e00;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .form_container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+/* Navigation Styling */
+
+.main-header {
+  width: 100%;
+  height: 6.5rem;
+  background-color: #333;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.main-header__nav {
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+.main-header__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-header__item {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.main-header__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+  color: #ff4e00;
+}
+
+.mobile-nav {
+  width: 30rem;
+  height: 100vh;
+  max-width: 90%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: white;
+  z-index: 10;
+  padding: 2rem 1rem 1rem 2rem;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.mobile-nav.open {
+  transform: translateX(0);
+}
+
+.mobile-nav__item-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-nav__item {
+  margin: 1rem;
+  padding: 0;
+}
+
+.mobile-nav__item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+}
+
+.mobile-nav__item a:active,
+.mobile-nav__item a:hover,
+.mobile-nav__item a.active {
+  background: #ff4e00;
+  color: white;
+  border-radius: 3px;
+}
+
+button {
+  border: 0;
+  background: none;
+}
+
+#side-menu-toggle {
+  display: block;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#side-menu-toggle:focus {
+  outline: none;
+}
+
+#side-menu-toggle:active,
+#side-menu-toggle:hover {
+  color: #ff4e00;
+  border-color: #ff4e00;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .main-header__nav {
+    display: flex;
+  }
+
+  #side-menu-toggle {
+    display: none;
+  }
+}

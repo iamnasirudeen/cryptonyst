@@ -1,0 +1,19 @@
+<% include ../partials/header %>
+
+    <div class="container">
+        <div class="row">
+            <h3 class="text-center">Add comment</h3>
+            <div style="width: 45%; margin: 30px auto;">
+                <form action="/blogs/<%= blog._id %>/comments" method="post">
+                    <div class="form-group">
+                        <input id="pad" class="form-control" type="text" name="comment[text]" placeholder="Comment">
+                    </div>
+                    <div class="form-group">
+                        <button id="pad" class="btn btn-block btn-md btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<% include ../partials/footer %>

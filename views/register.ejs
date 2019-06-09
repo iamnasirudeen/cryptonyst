@@ -1,0 +1,35 @@
+<% include ./partials/header %>
+  <div class="container">
+    <div class="form_container">
+      <form class="form-width" action="/register" method="post">
+        <h3>Register</h3>
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input class="form-control" type="text" id="firstName" name="firstName" placeholder="First Name" required>
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input class="form-control" type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input class="form-control" type="text" id="username" name="username" placeholder="Username" required>
+        </div>
+        <div class="form-group">
+          <label for="avatar">Avatar URL</label>
+          <input class="form-control" type="text" id="avatar" name="avatar" placeholder="https://image.png" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input class="form-control" type="email" id="email" name="email" placeholder="Email address" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input class="form-control" type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <button>Sign up</button>
+      </form>
+    </div>
+  </div>
+
+<% include ./partials/middle %>

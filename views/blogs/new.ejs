@@ -1,0 +1,29 @@
+<% include ../partials/header %>
+
+    <div class="container">
+        <div class="row">
+            <div class="form_container">
+                <h3 class="text-center">Create new blog</h3>
+                <form class="form-width" action="/blogs" method="post">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input id="pad" id="title" class="form-control" type="text" name="title" placeholder="Title">
+                    </div>
+                    <div class="form-group">
+                        <label for="image">Image URL</label>
+                        <input id="pad" id="image" class="form-control" type="text" name="image" placeholder="Image URL...">
+                    </div>
+                    <div class="form-group">
+                        <label for="body">Blog Body</label>
+                        <textarea class="form-control" name="content" id="body" rows="10" placeholder="Start typing content..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button id="pad" class="btn btn-block btn-md btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+<!--<% include ../partials/footer %>-->

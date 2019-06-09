@@ -1,0 +1,19 @@
+<% include ./partials/header %>
+  <div class="container">
+    <div class="form_container">
+      <form class="form-width" action="/login" method="POST">
+        <div class="form-group">
+          <h3>Login</h3>
+          <label for="username">Username</label>
+          <input class="form-control" type="text" id="username" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input class="form-control" type="password" id="password" name="password" placeholder="Password">
+        </div>
+        <button>Sign in</button>
+      </form>
+    </div>
+  </div>
+
+<% include ./partials/middle %>
